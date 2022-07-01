@@ -8,4 +8,4 @@ Dependencies:
 4. https://drive.google.com/file/d/1V4PmYgIC4xJlTdnIfakRwHhZTM5ZyyRf/view?usp=sharing
 5. Download/Install the dependencies and all the libraries used in the code
 
-run main1.py file
+run main.py file

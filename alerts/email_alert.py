@@ -7,9 +7,9 @@ def email_alert(subject, body, to):
     msg['subject'] = subject
     msg['to'] = to
 
-    user = "stunner.hustle@gmail.com"
+    user = "<from email here>"
     msg['from'] = user
-    password = "gsilrkisquwemajr"
+    password = "<API login pwd>"
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
@@ -20,4 +20,4 @@ def email_alert(subject, body, to):
     server.quit()
 
 if __name__ == '__main__':
-    email_alert("INTRUDER ALERT!!!", "We have detected strangers", "sahilali3628@gmail.com")
+    email_alert("INTRUDER ALERT!!!", "We have detected strangers", "<to email here>")
